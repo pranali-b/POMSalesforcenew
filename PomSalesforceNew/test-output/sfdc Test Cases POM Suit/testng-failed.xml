@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sfdc Test Cases POM Suit]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="sfdc test cases(failed)">
+    <classes>
+      <class name="com.sfdc.qa.testcases.checkYourEmailPageTest">
+        <methods>
+          <include name="validateCheckMailMsgpageTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sfdc.qa.testcases.checkYourEmailPageTest -->
+    </classes>
+  </test> <!-- sfdc test cases(failed) -->
+</suite> <!-- Failed suite [sfdc Test Cases POM Suit] -->

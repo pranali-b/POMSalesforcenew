@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-25T18:54:03Z" name="sfdc Test Cases POM Suit" finished-at="2019-08-25T18:56:15Z" duration-ms="132773">
+    <groups>
+    </groups>
+    <test started-at="2019-08-25T18:54:03Z" name="Test1" finished-at="2019-08-25T18:55:32Z" duration-ms="89059">
+      <class name="com.sfdc.qa.testcases.loginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:03Z" name="setUp" finished-at="2019-08-25T18:54:07Z" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginvalidateTitleTest()[pri:1, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:07Z" name="loginvalidateTitleTest" finished-at="2019-08-25T18:54:07Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginvalidateTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:07Z" name="tearDown" finished-at="2019-08-25T18:54:07Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:07Z" name="setUp" finished-at="2019-08-25T18:54:10Z" duration-ms="2949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:10Z" name="loginTest" finished-at="2019-08-25T18:54:17Z" duration-ms="7623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:17Z" name="tearDown" finished-at="2019-08-25T18:54:17Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:17Z" name="setUp" finished-at="2019-08-25T18:54:20Z" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="remeberMeWithUNnPWDTest()[pri:3, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:20Z" name="remeberMeWithUNnPWDTest" finished-at="2019-08-25T18:54:37Z" duration-ms="16778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remeberMeWithUNnPWDTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:37Z" name="tearDown" finished-at="2019-08-25T18:54:37Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:37Z" name="setUp" finished-at="2019-08-25T18:54:40Z" duration-ms="3118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginwithinvalidUnTest()[pri:4, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:40Z" name="loginwithinvalidUnTest" finished-at="2019-08-25T18:54:50Z" duration-ms="9968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidUnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:50Z" name="tearDown" finished-at="2019-08-25T18:54:51Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:51Z" name="setUp" finished-at="2019-08-25T18:54:54Z" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginInvalidUsernameAndPasswordTest(java.lang.String, java.lang.String)[pri:5, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:54:54Z" name="loginInvalidUsernameAndPasswordTest" data-provider="getSfdcTestData" finished-at="2019-08-25T18:55:05Z" duration-ms="10758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pranali.lonkar030@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranali321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUsernameAndPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:55:05Z" name="tearDown" finished-at="2019-08-25T18:55:05Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:55:05Z" name="setUp" finished-at="2019-08-25T18:55:09Z" duration-ms="3448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginInvalidUsernameAndPasswordTest(java.lang.String, java.lang.String)[pri:5, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:55:09Z" name="loginInvalidUsernameAndPasswordTest" data-provider="getSfdcTestData" finished-at="2019-08-25T18:55:19Z" duration-ms="10164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUsernameAndPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:55:19Z" name="tearDown" finished-at="2019-08-25T18:55:19Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:55:19Z" name="setUp" finished-at="2019-08-25T18:55:22Z" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginInvalidUsernameAndPasswordTest(java.lang.String, java.lang.String)[pri:5, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:55:22Z" name="loginInvalidUsernameAndPasswordTest" data-provider="getSfdcTestData" finished-at="2019-08-25T18:55:32Z" duration-ms="9858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2213.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUsernameAndPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.loginPageTest@fd07cbb]" started-at="2019-08-25T18:55:32Z" name="tearDown" finished-at="2019-08-25T18:55:32Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfdc.qa.testcases.loginPageTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2019-08-25T18:55:32Z" name="Test 2" finished-at="2019-08-25T18:55:57Z" duration-ms="24743">
+      <class name="com.sfdc.qa.testcases.homePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.homePageTest@4a668b6e]" started-at="2019-08-25T18:55:32Z" name="setUp" finished-at="2019-08-25T18:55:44Z" duration-ms="12302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickuserLabelTest()[pri:2, instance:com.sfdc.qa.testcases.homePageTest@4a668b6e]" started-at="2019-08-25T18:55:44Z" name="clickuserLabelTest" finished-at="2019-08-25T18:55:56Z" duration-ms="12307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickuserLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.homePageTest@4a668b6e]" started-at="2019-08-25T18:55:56Z" name="tearDown" finished-at="2019-08-25T18:55:57Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfdc.qa.testcases.homePageTest -->
+    </test> <!-- Test 2 -->
+    <test started-at="2019-08-25T18:55:57Z" name="Test 3" finished-at="2019-08-25T18:56:00Z" duration-ms="3372">
+      <class name="com.sfdc.qa.testcases.forgotPasswordTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.forgotPasswordTest@7e9131d5]" started-at="2019-08-25T18:55:57Z" name="setUp" finished-at="2019-08-25T18:56:00Z" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="forgotPasswordLinkTest()[pri:1, instance:com.sfdc.qa.testcases.forgotPasswordTest@7e9131d5]" started-at="2019-08-25T18:56:00Z" name="forgotPasswordLinkTest" finished-at="2019-08-25T18:56:00Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.forgotPasswordTest@7e9131d5]" started-at="2019-08-25T18:56:00Z" name="tearDown" finished-at="2019-08-25T18:56:00Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfdc.qa.testcases.forgotPasswordTest -->
+    </test> <!-- Test 3 -->
+    <test started-at="2019-08-25T18:56:00Z" name="Test 4" finished-at="2019-08-25T18:56:15Z" duration-ms="15384">
+      <class name="com.sfdc.qa.testcases.resetPasswordPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sfdc.qa.testcases.resetPasswordPageTest@37858383]" started-at="2019-08-25T18:56:00Z" name="setUp" finished-at="2019-08-25T18:56:03Z" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterUsernameAndContinueTest()[pri:1, instance:com.sfdc.qa.testcases.resetPasswordPageTest@37858383]" started-at="2019-08-25T18:56:03Z" name="enterUsernameAndContinueTest" finished-at="2019-08-25T18:56:15Z" duration-ms="12177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUsernameAndContinueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfdc.qa.testcases.resetPasswordPageTest@37858383]" started-at="2019-08-25T18:56:15Z" name="tearDown" finished-at="2019-08-25T18:56:15Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfdc.qa.testcases.resetPasswordPageTest -->
+    </test> <!-- Test 4 -->
+  </suite> <!-- sfdc Test Cases POM Suit -->
+</testng-results>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="sfdc Test Cases POM Suit"  >
+
+    <listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" ></listener>
+	</listeners>
+  <test name="Test1">
+    <classes>
+      <class name="com.sfdc.qa.testcases.loginPageTest"/>
+    </classes>
+  </test>
+    <test name="Test 2">
+        <classes>
+            <class name="com.sfdc.qa.testcases.homePageTest"/>
+        </classes>
+    </test>
+     <test name="Test 3">
+        <classes>
+            <class name="com.sfdc.qa.testcases.forgotPasswordTest"/>
+        </classes>
+    </test>
+    <test name="Test 4">
+        <classes>
+            <class name="com.sfdc.qa.testcases.resetPasswordPageTest"/>
+        </classes>
+    </test>
+</suite>
+	
+ 	 <!--<test name="sfdc test cases" >
+   			 <classes>
+      		 			<class name="com.sfdc.qa.testcases.loginPageTest" ></class>
+      		 	       <class name="com.sfdc.qa.testcases.homePageTest" ></class>
+    		 	       <class name="com.sfdc.qa.testcases.forgotPasswordTest" ></class>
+      				   <class name="com.sfdc.qa.testcases.resetPasswordPageTest" ></class> 
+    		 		   <class name="com.sfdc.qa.testcases.checkYourEmailPageTest" ></class> 
+   			 </classes>
+ 	 </test>
+ </suite>-->
+ 
